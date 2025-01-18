@@ -285,5 +285,4 @@ Ability to trigger skills for aliens, or at least let them choose between two we
 
 ---
 
-A: https://drive.google.com/open?id=1vszFp8uydC9u-NtU2nyGnt9LNLGHAP5B
-V: https://drive.google.com/open?id=1-9TXCAiZ3B7GOQouKd7bAGwvI76Ejm88
+Audio & Video Add-on: https://archive.org/details/vigilo-confido-audio-video-1.0.1
