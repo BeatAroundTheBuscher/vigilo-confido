@@ -6,6 +6,7 @@ Survive. Adapt. Win.
 A vanilla expansion for OXCE featuring content from EU2012 and others.
 
 Mod.io page: https://openxcom.mod.io/vigilo-confido
+Audio & Video Add-on: https://archive.org/details/vigilo-confido-audio-video-1.0.1
 
 The mod is feature complete and playable but has only seen testing by me.
 So it will probably still contain bugs.
@@ -282,7 +283,3 @@ Feature Wishlist:
 requiredSoldierType for startingCondition
 itemFlag: canNotSell
 Ability to trigger skills for aliens, or at least let them choose between two weapons.
-
----
-
-Audio & Video Add-on: https://archive.org/details/vigilo-confido-audio-video-1.0.1
