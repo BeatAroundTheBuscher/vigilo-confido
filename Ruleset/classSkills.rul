@@ -266,8 +266,9 @@ commendations:
     description: STR_SOLDIER_EXPERIENCE_DESCRIPTION
     sprite: 1
     criteria:
-      totalKills: [2, 4, 4, 4, 6, 6, 6, 10, 10, 10]
-      totalMissions: [4, 8, 8, 8, 12, 12, 12, 16, 16, 16]
+      # decoation level 0, 1
+      totalKills: [4, 10]
+      totalMissions: [8, 16]
 
 soldierBonuses:
   - name: STR_ORIGINAL8_BONUS
@@ -388,7 +389,7 @@ soldierTransformation:
   - name: STR_RANGER_ADVANCED_TRAINING
     forbiddenPreviousTransformations: [STR_RANGER_ADVANCED_TRAINING]
     requiredCommendations:
-      STR_SOLDIER_EXPERIENCE: 1 # decoration level
+      STR_SOLDIER_EXPERIENCE: 0 # decoration level
     soldierBonusType: STR_RANGER_ADVANCED_BONUS
     keepSoldierArmor: true
     createsClone: false
@@ -406,7 +407,7 @@ soldierTransformation:
   - name: STR_GRENADIER_ADVANCED_TRAINING
     forbiddenPreviousTransformations: [STR_GRENADIER_ADVANCED_TRAINING]
     requiredCommendations:
-      STR_SOLDIER_EXPERIENCE: 1 # decoration level
+      STR_SOLDIER_EXPERIENCE: 0 # decoration level
     soldierBonusType: STR_GRENADIER_ADVANCED_BONUS
     keepSoldierArmor: true
     createsClone: false
@@ -424,7 +425,7 @@ soldierTransformation:
   - name: STR_SNIPER_ADVANCED_TRAINING
     forbiddenPreviousTransformations: [STR_SNIPER_ADVANCED_TRAINING]
     requiredCommendations:
-      STR_SOLDIER_EXPERIENCE: 1 # decoration level
+      STR_SOLDIER_EXPERIENCE: 0 # decoration level
     soldierBonusType: STR_SNIPER_ADVANCED_BONUS
     keepSoldierArmor: true
     createsClone: false
@@ -441,7 +442,7 @@ soldierTransformation:
   - name: STR_SPECIALIST_ADVANCED_TRAINING
     forbiddenPreviousTransformations: [STR_SPECIALIST_ADVANCED_TRAINING]
     requiredCommendations:
-      STR_SOLDIER_EXPERIENCE: 1 # decoration level
+      STR_SOLDIER_EXPERIENCE: 0 # decoration level
     soldierBonusType: STR_SPECIALIST_ADVANCED_BONUS
     keepSoldierArmor: true
     createsClone: false
@@ -461,7 +462,7 @@ soldierTransformation:
       - STR_RANGER_ADVANCED_TRAINING
     forbiddenPreviousTransformations: [STR_RANGER_ELITE_TRAINING]
     requiredCommendations:
-      STR_SOLDIER_EXPERIENCE: 3 # decoration level
+      STR_SOLDIER_EXPERIENCE: 1 # decoration level
     soldierBonusType: STR_RANGER_ELITE_BONUS
     keepSoldierArmor: true
     createsClone: false
@@ -481,7 +482,7 @@ soldierTransformation:
       - STR_GRENADIER_ADVANCED_TRAINING
     forbiddenPreviousTransformations: [STR_GRENADIER_ELITE_TRAINING]
     requiredCommendations:
-      STR_SOLDIER_EXPERIENCE: 3 # decoration level
+      STR_SOLDIER_EXPERIENCE: 1 # decoration level
     soldierBonusType: STR_GRENADIER_ELITE_BONUS
     keepSoldierArmor: true
     createsClone: false
@@ -501,7 +502,7 @@ soldierTransformation:
       - STR_SNIPER_ADVANCED_TRAINING
     forbiddenPreviousTransformations: [STR_SNIPER_ELITE_TRAINING]
     requiredCommendations:
-      STR_SOLDIER_EXPERIENCE: 3 # decoration level
+      STR_SOLDIER_EXPERIENCE: 1 # decoration level
     soldierBonusType: STR_SNIPER_ELITE_BONUS
     keepSoldierArmor: true
     createsClone: false
@@ -520,7 +521,7 @@ soldierTransformation:
       - STR_SPECIALIST_ADVANCED_TRAINING
     forbiddenPreviousTransformations: [STR_SPECIALIST_ELITE_TRAINING]
     requiredCommendations:
-      STR_SOLDIER_EXPERIENCE: 3 # decoration level
+      STR_SOLDIER_EXPERIENCE: 1 # decoration level
     soldierBonusType: STR_SPECIALIST_ELITE_BONUS
     keepSoldierArmor: true
     createsClone: false

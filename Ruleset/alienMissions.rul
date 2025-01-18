@@ -1488,7 +1488,7 @@ alienDeployments:
     width: 60     # Changed by C.M.P.
     length: 60    # Changed by C.M.P.
     height: 2
-    race: STR_ALIEN_BASE_CREW
+    # race: STR_ALIEN_BASE_CREW
     terrains:
       - UBASE
     shade: 10     # Changed by C.M.P.
@@ -1509,7 +1509,7 @@ alienDeployments:
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 200
+    points: 20
   - type: STR_BASE_DEFENSE
     data:
       - alienRank: 5
