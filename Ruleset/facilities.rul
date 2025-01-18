@@ -158,8 +158,8 @@ facilities:
       - STR_GOLLOP_CHAMBER
     buildCostItems:
       STR_ETHEREAL_DEVICE:
-       build: 1
-       refund: 1
+        build: 1
+        refund: 1
     spriteShape: 1
     spriteFacility: 59
     buildCost: 15000
@@ -173,8 +173,8 @@ facilities:
       - STR_HYPERWAVE_BEACON
     buildCostItems:
       STR_HYPERWAVE_BEACON:
-       build: 1
-       refund: 1
+        build: 1
+        refund: 1
     hyper: true
     spriteShape: 2
     spriteFacility: 32

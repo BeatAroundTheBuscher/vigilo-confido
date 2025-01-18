@@ -23,22 +23,22 @@ units:
     intelligence: 5
     aggression: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_RIFLE
         - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
-        - STR_GRENADE       
-      - 
+        - STR_GRENADE
+      -
         - STR_HEAVY_CANNON
         - STR_HEAVY_CANNON_CLIP
         - STR_HEAVY_CANNON_CLIP
         - STR_GRENADE
-      - 
+      -
         - STR_RIFLE
         - STR_RIFLE_CLIP
         - STR_RIFLE_CLIP
         - STR_GRENADE
-        
+
 armors:
   - type: STR_PERSONAL_ARMOR_NPC
     tags:
@@ -64,9 +64,9 @@ armors:
       - 0.9
       - 1.1
       - 2.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
 
 extraStrings:
   - type: en-US
     strings:
-      STR_XCOM_BASE_SECURITY: "XCOM Base Security"   
+      STR_XCOM_BASE_SECURITY: "XCOM Base Security"

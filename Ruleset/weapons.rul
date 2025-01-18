@@ -1209,7 +1209,7 @@ items:
     invHeight: 1
     tags:
       RUPTURE_DAMAGE: 20
- 
+
   - type: STR_PLASMA_PISTOL
     fireSound: 76
     tags:

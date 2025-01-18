@@ -30,7 +30,7 @@ armors:
       - 1
     loftempsSet: [3]
     meleeDodge:
-      reactions: 0.1    
+      reactions: 0.1
     specialWeapon: STR_FIXED_MEDI_KIT
 
 units:
@@ -135,10 +135,10 @@ items:
     costSell: 30400
   - type: STR_HOVERTANK_PLASMA
     size: 6
-    costSell: 40000    
+    costSell: 40000
   - type: STR_HOVERTANK_LAUNCHER
     size: 6
-    costSell: 54000    
+    costSell: 54000
 
   - type: STR_FIXED_MEDI_KIT
     size: 0.3

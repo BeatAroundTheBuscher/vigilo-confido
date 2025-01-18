@@ -11,7 +11,7 @@ extraSprites:
       112: Resources/Animation/melee1.gif
       116: Resources/Animation/lasermelee.gif
       120: Resources/Animation/plasmamelee.png
-      
+
 
   - type: SMOKE.PCK
     height: 80

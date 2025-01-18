@@ -212,12 +212,12 @@ manufacture:
     requiredItems:
       STR_ELERIUM_CORE: 1
     randomProducedItems:
-      -   - 30
-          - STR_STASIS_VEST: 1
-      -   - 30
-          - STR_HAZMAT_VEST: 1
-      -   - 30
-          - STR_PLATED_VEST: 1
+      - - 30
+        - STR_STASIS_VEST: 1
+      - - 30
+        - STR_HAZMAT_VEST: 1
+      - - 30
+        - STR_PLATED_VEST: 1
   - name: STR_SKY_STRIKE_ARMOR
     category: STR_PERSONAL_ARMOR
     space: 0

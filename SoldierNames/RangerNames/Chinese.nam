@@ -248,7 +248,7 @@ maleFirst:
   - Nie
   - Ning
   - Niu
-  - On
+  - On  # yamllint disable-line rule:truthy
   - Ong
   - Ou
   - Ou Yang
@@ -674,7 +674,7 @@ femaleFirst:
   - Nie
   - Ning
   - Niu
-  - On
+  - On  # yamllint disable-line rule:truthy
   - Ong
   - Ou
   - Ou Yang
@@ -906,7 +906,7 @@ maleLast:
   - Ming
   - Niao-ka
   - Ning
-  - On
+  - On  # yamllint disable-line rule:truthy
   - Peng
   - Qiang
   - Qing-Nan

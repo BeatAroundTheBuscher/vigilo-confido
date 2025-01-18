@@ -226,7 +226,7 @@ ufopaedia:
     type_id: 8
     text: STR_ADVANCED_DEPLOYMENT3_UFOPAEDIA
     requires: [STR_ADVANCED_DEPLOYMENT3]
-    section: STR_XCOM_CRAFT_ARMAMENT    
+    section: STR_XCOM_CRAFT_ARMAMENT
   - id: STR_FULL_DEPLOYMENT
     type_id: 8
     text: STR_FULL_DEPLOYMENT_UFOPAEDIA

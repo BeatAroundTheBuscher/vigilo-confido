@@ -1,4 +1,4 @@
- 
+
 displayCustomCategories: 2
 customTrainingFactor: 10
 maxDarknessToSeeUnits: 15
@@ -46,8 +46,8 @@ extended:
         code: |
           var ptr RuleArmor armor_rule;
           var ptr RuleSoldier soldier_rule;
-          
-          observer_unit.getRuleSoldier soldier_rule;  
+
+          observer_unit.getRuleSoldier soldier_rule;
 
           if neq soldier_rule null;  # we have an xcom unit as observer
             if le distance distance_max;
@@ -100,11 +100,11 @@ extended:
           var int id;
           var int firing;
           var int adjustment;
-          
+
           set adjustment 100; # 100% accuracy
 
           unit.getId id;
-          unit.getRuleSoldier soldier_rule;  
+          unit.getRuleSoldier soldier_rule;
 
           if and neq adjustment 100 eq soldier_rule null;  # we have an alien unit
             debug_log "Adjusting accuracy of unit" id;
@@ -122,11 +122,11 @@ extended:
           var int id;
           var int firing;
           var int adjustment;
-          
+
           set adjustment 100; # 100% power
 
           unit.getId id;
-          unit.getRuleSoldier soldier_rule;  
+          unit.getRuleSoldier soldier_rule;
 
           if and neq adjustment 100 neq soldier_rule null;  # we have an xcom unit
             debug_log "Adjusting power of hit against xcom unit" id;
@@ -147,9 +147,9 @@ extended:
           var int hardened;
 
           set crit_factor 40; # 40% additional damage as baseline for everybody on crit
-          
+
           weapon_item.getRuleItem item_rule; # weapon
-          
+
           item_rule.getTag unit_chance Tag.CRIT_CHANCE;
           add crit_chance unit_chance;
 
@@ -279,7 +279,7 @@ extended:
         code: |
           var int temp;
           var int type;
-          var int color;    
+          var int color;
           unit.getTag temp Tag.LAST_DAMAGE_FRAME;
           unit.getTag type Tag.LAST_DAMAGE_TYPE;
           if neq temp 0;
@@ -293,12 +293,12 @@ extended:
               end;
               set_color new_pixel color;
             end;
-          end;          
+          end;
           return new_pixel;
 
 extraStrings:
   - type: en-US
-    strings: 
+    strings:
       STR_DAMAGE_DEALT_SHRED: "Hit: {0} - Shred: {1}"
       STR_CRIT_DAMAGE_DEALT_SHRED: "CRIT: {0} - Shred: {1}"
       STR_DAMAGE_DEALT: "Hit: {0}"

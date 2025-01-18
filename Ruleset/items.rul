@@ -1331,7 +1331,7 @@ extraSprites:
 soldiers:
   - type: STR_SOLDIER_MIMIC
     armor: MIMIC_ARMOR
-    
+
 
 units:
   - type: STR_SOLDIER_MIMIC
@@ -1399,7 +1399,7 @@ armors:
         var ptr RuleArmor armor_rule;
         var int is_mimic;
         debug_log "Mimic Beacon Code running";
-        unit.getRuleArmor armor_rule;  
+        unit.getRuleArmor armor_rule;
         armor_rule.getTag is_mimic Tag.IS_MIMIC;
 
         if gt is_mimic 0;  # we have a mimic
@@ -1426,7 +1426,7 @@ armors:
 
         debug_log "Mimic Beacon Code On New Turn";
         if eq side 1; # on the alien turns
-          unit.getRuleArmor armor_rule;  
+          unit.getRuleArmor armor_rule;
           armor_rule.getTag is_mimic Tag.IS_MIMIC;
 
           if gt is_mimic 0;  # we have a mimic

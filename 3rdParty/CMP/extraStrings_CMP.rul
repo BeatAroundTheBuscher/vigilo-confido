@@ -1,8 +1,8 @@
 ############################
-## C.M.P -Extra strings - VANILLA 
+## C.M.P -Extra strings - VANILLA
 ## V0.0.1
 ## Lasted Changed by L83
-## Comments: 
+## Comments:
 ###########################
 
 
@@ -11,7 +11,7 @@ extraStrings:
     strings:
       MAP_ACULTA: "Ghothic Grass"
       MAP_ACULTASNOW: "Ghothic Snow"
-      MAP_ACULTASAND: "Ghothic Sand"	 
+      MAP_ACULTASAND: "Ghothic Sand"
       MAP_MOUNT: "Mountains Wasteland"
       MAP_MOUNTSNOW: "Mountains Snow"
       MAP_MOUNTMUDD: "Mountains Mudd"
@@ -30,7 +30,7 @@ extraStrings:
       MAP_POLAR_BD: "Frozen Lake"
       MAP_RICE_FARM: "Rice Fields"
       MAP_IDT_AIRPORT: "Airport"
-      MAP_IDT_HIJACKED_AIRPORT: "Airport"	 
+      MAP_IDT_HIJACKED_AIRPORT: "Airport"
       MAP_IDT_SNOWVILLAGE: "Rural Snow Settlement"
       MAP_IDT_SNOWFOREST: "Rural Snow Forest"
       MAP_IDT_VILLAGE: "Rural Settlement"
@@ -371,12 +371,12 @@ extraStrings:
       STR_VOSTOKSTATION: "Vostok"
       STR_MCMURDOSTATION: "McMurdo"
       STR_AMUNDSENSCOTTSTATION: "Amundsen-Scott"
-     
+
   - type: en-GB
     strings:
       MAP_ACULTA: "Ghothic Grass"
       MAP_ACULTASNOW: "Ghothic Snow"
-      MAP_ACULTASAND: "Ghothic Sand"	 
+      MAP_ACULTASAND: "Ghothic Sand"
       MAP_MOUNT: "Mountains Wasteland"
       MAP_MOUNTSNOW: "Mountains Snow"
       MAP_MOUNTMUDD: "Mountains Mudd"

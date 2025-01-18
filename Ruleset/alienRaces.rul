@@ -45,7 +45,7 @@ alienRaces:
       - [STR_ETHEREAL_LEADER]
       - [STR_SECTOID, STR_FLOATER, STR_DRONE]
       - [STR_MUTON, STR_SNAKEMAN]
-      - [STR_MUTON, STR_SNAKEMAN,]
+      - [STR_MUTON, STR_SNAKEMAN]
       - [STR_ETHEREAL, STR_MUTON_ELITE]
       - [STR_ETHEREAL, STR_MUTON_ELITE]
       - [STR_ANDROMEDON, STR_MUTON_BERSERKER]
@@ -207,7 +207,7 @@ extraStrings:
     strings:
       STR_TIER_ONE_MIXED: "T1 Mixed"
       STR_TIER_TWO_MIXED: "T2 Mixed"
-      STR_TIER_THREE_MIXED: "T3 Mixed" 
+      STR_TIER_THREE_MIXED: "T3 Mixed"
       STR_OVERSEER_CREW: "Overseer Crew"
       STR_ALIEN_BASE_CREW: "Alien Base Crew"
       STR_ALIEN_ASSAULT_CREW: "Retaliation Crew"

@@ -27,7 +27,7 @@
 #  TA Heavy Rocket
 #  TA Rapid Deployment
 #  TP Shredder
-# Advanced 
+# Advanced
 #  TA War Cry
 #  TA Rage Burst
 #  TP Blast Padding
@@ -178,7 +178,7 @@
 # P Savior             - Medikits restore health per use.
 # A Electric Reinforcement - All allies gain 20 temporary Armor for 1 turn
 # A Restoration        - Each squad member is healed or revived as needed.
-# === Psi 
+# === Psi
 # -- Bound to normal weapon PSI_AMP
 # Panic
 # Mind Control
@@ -311,7 +311,7 @@ soldierBonuses:
   - name: STR_SPECIALIST_ELITE_BONUS
     tags:
       SAVIOR: 10              #X (1-XXX) flat amount of health restored when using heal
-      EVER_VIGILANT: 1        #X (1/0) restores all TU on beginning of enemy turn 
+      EVER_VIGILANT: 1        #X (1/0) restores all TU on beginning of enemy turn
   - name: STR_PSI_OPERATIVE_ADVANCED_BONUS
   - name: STR_PSI_OPERATIVE_ELITE_BONUS
 
@@ -501,7 +501,7 @@ soldierTransformation:
       - STR_SNIPER_ADVANCED_TRAINING
     forbiddenPreviousTransformations: [STR_SNIPER_ELITE_TRAINING]
     requiredCommendations:
-      STR_SOLDIER_EXPERIENCE: 3 # decoration level 
+      STR_SOLDIER_EXPERIENCE: 3 # decoration level
     soldierBonusType: STR_SNIPER_ELITE_BONUS
     keepSoldierArmor: true
     createsClone: false
@@ -520,7 +520,7 @@ soldierTransformation:
       - STR_SPECIALIST_ADVANCED_TRAINING
     forbiddenPreviousTransformations: [STR_SPECIALIST_ELITE_TRAINING]
     requiredCommendations:
-      STR_SOLDIER_EXPERIENCE: 3 # decoration level 
+      STR_SOLDIER_EXPERIENCE: 3 # decoration level
     soldierBonusType: STR_SPECIALIST_ELITE_BONUS
     keepSoldierArmor: true
     createsClone: false
@@ -991,7 +991,7 @@ soldiers:
     showTypeInInventory: true
     tags:
       CLASS: 3
-      DEATH_FROM_ABOVE: 1     #X (1/0) on/off enables refund of TU when killing from above, once per turn 
+      DEATH_FROM_ABOVE: 1     #X (1/0) on/off enables refund of TU when killing from above, once per turn
     skillIconSprite: 4
     skills:
       - STR_QUICK_AIM     # X reduce cost / increase aim
@@ -1453,7 +1453,7 @@ extended:
 
           if eq side 0; # xcom turns
             unit.getId unit_id;
-            
+
             unit.getTag untouchable Tag.UNTOUCHABLE_STATE;
 
             if gt untouchable 0;
@@ -1539,7 +1539,7 @@ extended:
 
               unit.getPosition.getX unit_x;
               unit.getPosition.getY unit_y;
-              
+
               sub source_x unit_x;
               sub source_y unit_y;
 
@@ -1548,7 +1548,7 @@ extended:
 
               add two_dee_distance_sq source_x;
               add two_dee_distance_sq source_y;
-              
+
               debug_log "Battle cry distance (sq)" activation_dist_sq;
               debug_log "Unit dist from source (sq)" two_dee_distance_sq;
 
@@ -1586,7 +1586,7 @@ extended:
               if eq stunned 0;
                 unit.setTag Tag.VIS_EFFECT 0;
               else;
-                unit.setTag Tag.STUNNED stunned;            
+                unit.setTag Tag.STUNNED stunned;
                 unit.setTimeUnits 0;
                 debug_log unit "is still stunned.";
               end;
@@ -1622,7 +1622,7 @@ extended:
               unit.getPosition.getZ pos_z;
 
               unit.setTag Tag.AIM_STATE 2; # was kneeling at the beginning of the turn
-              
+
               unit.setTag Tag.AIM_X pos_x;
               unit.setTag Tag.AIM_Y pos_y;
               unit.setTag Tag.AIM_Z pos_z;
@@ -1855,7 +1855,7 @@ extended:
 
             unit.getPosition.getX target_x;
             unit.getPosition.getY target_y;
-            
+
             sub attacker_x target_x;
             sub attacker_y target_y;
 
@@ -1864,7 +1864,7 @@ extended:
 
             add two_dee_distance_sq attacker_x;
             add two_dee_distance_sq attacker_y;
-            
+
             debug_log "Parry distance (sq)" parry_distance_sq;
             debug_log "Parry unit attacked from dist (sq)" two_dee_distance_sq;
 
@@ -2028,7 +2028,7 @@ extended:
               debug_log "Guardian Activated! Reaction TU refunded.";
             end;
           end;
-                
+
           return power part side;
       - offset: 38   # for aim
         code: |
@@ -2065,12 +2065,12 @@ extended:
               attacker.getTag temp Tag.CRIT_CHANCE_NEXT_HIT;
               add temp 30;
               attacker.setTag Tag.CRIT_CHANCE_NEXT_HIT temp; # increase hit chance by 30% for next hit
-              
+
               attacker.getTag temp Tag.CRIT_DAMAGE_NEXT_HIT;
               add temp 20;
               attacker.setTag Tag.CRIT_DAMAGE_NEXT_HIT 20; # increase hit damage by 20% for next hit
             end;
-          end;            
+          end;
           return power part side;
       - offset: 41   # for electric reinforcement
         code: |
@@ -2417,7 +2417,7 @@ extended:
 
           if gt executioner 0;
             if lt unit_health unit_half_max_health;
-              
+
               debug_log "Executioner activated! " to_health;
               muldiv to_health executioner 100; # 150 = 150% damage to health
               debug_log " - Damaged increased to" to_health;
@@ -2447,7 +2447,7 @@ extended:
                   set to_health unit_health;
                   debug_log " - Damaged increased to" to_health;
                 end;
-              end;  
+              end;
             end;
           end;
           return;
@@ -2551,7 +2551,7 @@ extended:
               attacker.setTimeUnits max_time_units;    # set the new TU value
             end;
           end;
-          return;    
+          return;
       - offset: 32   # for combat protocol & interference
         code: |
           var int unit_state;
@@ -2582,7 +2582,7 @@ extended:
               set to_health 10;
             end;
           end;
-          return;    
+          return;
     healUnit:
       - offset: 24   # for savior
         code: |
@@ -2610,7 +2610,7 @@ extended:
           actor.getTag field_surgeon Tag.FIELD_SURGEON_STATE;
 
           if gt field_surgeon 0;
-            
+
             target.getHealthMax max_health;
             target.getHealth cur_health;
 
@@ -2634,7 +2634,7 @@ extended:
           # hp loss: ~0-120
 
           debug_log unit "HP LOSS:" health_loss;
-          debug_log "Original recovery time:" recovery_time;  
+          debug_log "Original recovery time:" recovery_time;
           limit_upper health_loss max_health;
           debug_log unit "Adjusted HP LOSS:" health_loss;
           set recover_min health_loss;
@@ -2667,7 +2667,7 @@ extended:
           var int turns_since_spotted;
           var int temp;
 
-          unit.getTag camo_state Tag.PHANTOM_STATE;        
+          unit.getTag camo_state Tag.PHANTOM_STATE;
 
           if gt camo_state 0;
             unit.getTurnsSinceSpotted turns_since_spotted;
@@ -2755,7 +2755,7 @@ extended:
 
             target_unit.getPosition.getX target_x;
             target_unit.getPosition.getY target_y;
-            
+
             sub observer_x target_x;
             sub observer_y target_y;
 
@@ -2764,7 +2764,7 @@ extended:
 
             add two_dee_distance_sq observer_x;
             add two_dee_distance_sq observer_y;
-            
+
             debug_log "Camo units safe distance (sq)" camo_distance_sq;
             debug_log "Camo unit may be visible in distance (sq)" two_dee_distance_sq;
 
@@ -3476,7 +3476,7 @@ extraSprites:
 #      tags:
 #        GUARDIAN_STATE: 1             #X (1/0) a 50% chance that TU on reaction fire get refunded
 #        SAVIOR_STATE: 10              #X (1-XXX) flat amount of health restored when using heal
-#        EVER_VIGILANT_STATE: 1        #X (1/0) restores all TU on beginning of enemy turn 
+#        EVER_VIGILANT_STATE: 1        #X (1/0) restores all TU on beginning of enemy turn
 #        STEADFAST_STATE: 50           #X (1-XXX) bonus to bravery and psiDefence
 #        FIELD_SURGEON_STATE: 30       #X (1-XXX) percent reduction in recovery time if healed by field surgeon
 
@@ -3493,8 +3493,8 @@ extraSprites:
 #        STING_GRENADES_STATE: 50      #X (1-xxx) chance to stun enemies when using flashbang, in percent
 #        RUPTURE_STATE: 1              #X (1/0) on/off enables use rupture skill with compatible weapons, (aimed / auto only)
 #        BLAST_PADDING_STATE: 60       #X (0-100) amount of damage reduction in percent for HE and Incendiary
-#        MAYHEM_STATE: 10 
-#        SHREDDER_STATE: 1  
+#        MAYHEM_STATE: 10
+#        SHREDDER_STATE: 1
 
 #PSI Operative
 #RuleSoldier

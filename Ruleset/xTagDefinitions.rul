@@ -57,7 +57,6 @@ extended:
       LAST_HIT_FRAME: int
       LAST_DAMAGE_FRAME: int
       LAST_DAMAGE_TYPE: int
-      ORIGINAL_ACCURACY: int
       CRIT_CHANCE_BASE: int       # never reset during a mission
       CRIT_CHANCE_THIS_TURN: int  # gets reset every turn
       CRIT_CHANCE_NEXT_HIT: int   # gets reset after a hit

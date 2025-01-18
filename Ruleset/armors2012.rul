@@ -488,7 +488,7 @@ armors:
       reactions: 0.2
     recovery:
       mana:
-        mana: 0.1  # 10% of total mana pool  
+        mana: 0.1  # 10% of total mana pool
   - type: STR_PREDATOR_ARMOR_UC   # Predator
     spriteSheet: XOPS_XCOM_10.PCK
     layersDefaultPrefix: HUMAN
@@ -1505,9 +1505,9 @@ armors:
       F54: ["", "", "F54_NUDE", "", "", "", "", "", "NERVE_ARMOR_BLUE_F", "", "", "CAP_ONESUIT_SR", "", "F54_HAIR_FRONT", "", "", "CAP_NERVE_BLUE_SR"]
       F55: ["", "", "F55_NUDE", "", "", "", "", "", "NERVE_ARMOR_BLUE_F", "", "", "CAP_ONESUIT_SR", "", "F55_HAIR_FRONT", "", "", "CAP_NERVE_BLUE_SR"]
     spriteFaceGroup: 6
-    spriteFaceColor: *SpriteFaceColorAgent 
+    spriteFaceColor: *SpriteFaceColorAgent
     spriteHairGroup: 9
-    spriteHairColor: *SpriteHairColorAgent 
+    spriteHairColor: *SpriteHairColorAgent
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_BLUE
     storeItem: STR_PSI_ARMOR
@@ -1660,9 +1660,9 @@ armors:
       F54: ["", "", "F54_NUDE", "", "", "", "", "", "NERVE_ARMOR_BLACK_F", "", "", "CAP_ONESUIT_SR", "", "F54_HAIR_FRONT", "", "", "CAP_NERVE_BLACK_SR"]
       F55: ["", "", "F55_NUDE", "", "", "", "", "", "NERVE_ARMOR_BLACK_F", "", "", "CAP_ONESUIT_SR", "", "F55_HAIR_FRONT", "", "", "CAP_NERVE_BLACK_SR"]
     spriteFaceGroup: 6
-    spriteFaceColor: *SpriteFaceColorAgent 
+    spriteFaceColor: *SpriteFaceColorAgent
     spriteHairGroup: 9
-    spriteHairColor: *SpriteHairColorAgent 
+    spriteHairColor: *SpriteHairColorAgent
     corpseBattle:
       - STR_CORPSE_PSI_ARMOR_BLACK
     storeItem: STR_PSI_ARMOR
@@ -2188,7 +2188,7 @@ extraSprites:
       123: Resources/Armor_Imported/PsiArmor/FloorOb/Psi_Corpse_Blue.gif
       124: Resources/Armor_Imported/PsiArmor/FloorOb/Psi_Corpse.gif
       125: Resources/Armor_Imported/PsiArmor/FloorOb/Psi_Corpse_Black.gif
-      
+
 #---PAPER DOLL IMAGES------------------------------------------
   - type: MAN_4F0.SPK
     singleImage: true
