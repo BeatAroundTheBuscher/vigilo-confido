@@ -1,9 +1,9 @@
 initialFunding: 16
 
-costHireScientist: 1000000
-costScientist: 10
-costHireEngineer: 1000000
-costEngineer: 10
+costHireScientist: 500000
+costScientist: 1000
+costHireEngineer: 500000
+costEngineer: 1000
 
 startingBase:
   facilities:

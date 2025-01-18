@@ -133,7 +133,7 @@ manufacture:
     requiredItems:
       STR_MUTON_CORPSE: 1
     producedItems:
-      STR_PROXIMITY_GRENADE: 1
+      STR_FREEZE_GRENADE: 1
   - name: STR_BERSERKER_EXTRACTION
     category: STR_TECHNOLOGY_EXTRACTION
     space: 0
