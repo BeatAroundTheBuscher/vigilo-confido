@@ -497,7 +497,7 @@ armors:
       - 1
       - 1
       - 1.1
-    loftempsSet: [ 92, 89, 90, 91 ]
+    loftempsSet: [92, 89, 90, 91]
 
 units:
   - delete: STR_SECTOID_SOLDIER
@@ -804,19 +804,19 @@ units:
     aggression: 8
     liveAlien: ""
     builtInWeaponSets:
-      -   - STR_LASER_RIFLE
-          - STR_ACID_GRENADE
-          - STR_ACID_GRENADE
-      -   - STR_PLASMA_RIFLE
-          - STR_PLASMA_RIFLE_CLIP
-          - STR_PLASMA_RIFLE_CLIP
-          - STR_ACID_GRENADE
-          - STR_ACID_GRENADE
-      -   - STR_HEAVY_PLASMA
-          - STR_HEAVY_PLASMA_CLIP
-          - STR_HEAVY_PLASMA_CLIP
-          - STR_ACID_GRENADE
-          - STR_ACID_GRENADE
+      - - STR_LASER_RIFLE
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+      - - STR_PLASMA_RIFLE
+        - STR_PLASMA_RIFLE_CLIP
+        - STR_PLASMA_RIFLE_CLIP
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
+      - - STR_HEAVY_PLASMA
+        - STR_HEAVY_PLASMA_CLIP
+        - STR_HEAVY_PLASMA_CLIP
+        - STR_ACID_GRENADE
+        - STR_ACID_GRENADE
   - type: STR_ANDROMEDON_SHELL
     race: STR_ANDROMEDON_SHELL
     rank: STR_LIVE_TERRORIST
@@ -989,7 +989,7 @@ units:
     aggression: 2
     energyRecovery: 20
     spawnUnit: STR_CHRYSSALID
-    livingWeapon: true 
+    livingWeapon: true
     deathSound: 55
     # Zombies are silent on death, no deathSound
     liveAlien: ""
@@ -1383,7 +1383,7 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Sectoid/SECTOID_LEADER_INV.png 
+      0: Resources/Units/Sectoid/SECTOID_LEADER_INV.png
 
 # battlescape
   - type: DRONE.PCK

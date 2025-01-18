@@ -27,7 +27,7 @@ crafts:
     refuelRate: 5000
     transferTime: 96
     armor: 100
-    
+
 craftWeapons:
   - type: STR_STINGRAY
     sprite: 0

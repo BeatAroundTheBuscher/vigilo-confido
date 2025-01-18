@@ -29,7 +29,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 92, 89, 90, 91 ]
+    loftempsSet: [92, 89, 90, 91]
 
   - type: SECTOPOD_ARMOR
     spriteSheet: X_ROB.PCK
@@ -58,7 +58,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 92, 89, 90, 91 ]
+    loftempsSet: [92, 89, 90, 91]
   - type: TANK_ARMOR
     spriteSheet: TANKS.PCK
     spriteInv: XC_TANKNOR
@@ -85,7 +85,7 @@ armors:
       - 0.9
       - 0.4
       - 0.0
-    loftempsSet: [ 92, 89, 90, 91 ]
+    loftempsSet: [92, 89, 90, 91]
   - type: LASERTANK_ARMOR
     spriteSheet: TANKS.PCK
     spriteInv: XC_TANKLAS
@@ -112,7 +112,7 @@ armors:
       - 0.9
       - 0.4
       - 0.0
-    loftempsSet: [ 92, 89, 90, 91 ]
+    loftempsSet: [92, 89, 90, 91]
   - type: MISSILETANK_ARMOR
     spriteSheet: TANKS.PCK
     spriteInv: XC_TANKMISS
@@ -139,7 +139,7 @@ armors:
       - 0.9
       - 0.4
       - 0.0
-    loftempsSet: [ 92, 89, 90, 91 ]
+    loftempsSet: [92, 89, 90, 91]
   - type: HOVERTANK_ARMOR
     spriteSheet: TANKS.PCK
     spriteInv: XC_HOVERPLA
@@ -168,7 +168,7 @@ armors:
       - 0.9
       - 0.4
       - 0.0
-    loftempsSet: [ 92, 89, 90, 91 ]
+    loftempsSet: [92, 89, 90, 91]
   - type: LAUHOVERTANK_ARMOR
     spriteSheet: TANKS.PCK
     spriteInv: XC_HOVERLAU
@@ -197,7 +197,7 @@ armors:
       - 0.9
       - 0.4
       - 0.0
-    loftempsSet: [ 92, 89, 90, 91 ]
+    loftempsSet: [92, 89, 90, 91]
   - type: CIVM_ARMOR
     spriteSheet: CIVM.PCK
     corpseBattle:
@@ -218,7 +218,7 @@ armors:
       - 1.2
       - 1.6
       - 1.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: CIVF_ARMOR
     spriteSheet: CIVF.PCK
     corpseBattle:
@@ -239,7 +239,7 @@ armors:
       - 1.2
       - 1.6
       - 1.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: SNAKEMAN_ARMOR0
     spriteSheet: SNAKEMAN.PCK
     spriteInv: AL_SNK
@@ -261,7 +261,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: SNAKEMAN_ARMOR1
     spriteSheet: SNAKEMAN.PCK
     spriteInv: AL_SNK
@@ -283,7 +283,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: SNAKEMAN_ARMOR2
     spriteSheet: SNAKEMAN.PCK
     spriteInv: AL_SNK
@@ -305,7 +305,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: MUTON_ARMOR0
     spriteSheet: MUTON.PCK
     spriteInv: AL_MUTON
@@ -327,7 +327,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: MUTON_ARMOR1
     spriteSheet: MUTON.PCK
     spriteInv: AL_MUTON
@@ -349,7 +349,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: MUTON_ARMOR2
     spriteSheet: MUTON.PCK
     spriteInv: AL_MUTON
@@ -371,7 +371,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: ETHEREAL_ARMOR0
     spriteSheet: ETHEREAL.PCK
     spriteInv: AL_ETH
@@ -394,7 +394,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: ETHEREAL_ARMOR1
     spriteSheet: ETHEREAL.PCK
     spriteInv: AL_ETH
@@ -417,7 +417,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: ETHEREAL_ARMOR2
     spriteSheet: ETHEREAL.PCK
     spriteInv: AL_ETH
@@ -440,7 +440,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: CHRYSSALID_ARMOR
     spriteSheet: CHRYS.PCK
     spriteInv: AL_CHR
@@ -463,7 +463,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
   - type: ZOMBIE_ARMOR
     painImmune: true   # no secondary stun damage
     spriteSheet: ZOMBIE.PCK
@@ -487,7 +487,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftempsSet: [ 3 ]
+    loftempsSet: [3]
     deathFrames: 18
 
   - type: CIVM_ARMOR

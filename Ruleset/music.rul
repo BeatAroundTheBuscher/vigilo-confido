@@ -10,7 +10,7 @@ musics:
   - type: GMGEO3
     normalization: 1.0
   - type: GMGEO4
-    normalization: 1.0    
+    normalization: 1.0
   - type: GMINTER
     normalization: 1.0
   - type: GMINTRO1
@@ -63,5 +63,4 @@ extraStrings:
       GMTACTIC6: "Combat Music 6"
       GMENBASE: "Ready for Battle"
       GMDEFEND: "Ready for Battle"
-      
-     
+

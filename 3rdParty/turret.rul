@@ -117,7 +117,7 @@ armors:
       - 0.0
     builtInWeapons:
       - AUX_XTURRET_CANNON_WEAPON
-    loftempsSet: [ 92, 89, 90, 91 ]
+    loftempsSet: [92, 89, 90, 91]
 
 extraSprites:
   - type: XTURRET.PCK

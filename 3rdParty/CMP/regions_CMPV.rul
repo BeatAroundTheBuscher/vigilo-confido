@@ -702,7 +702,7 @@ regions:
         - [102.67, 102.67, -32.74, -32.74, -1, STR_CHENGDU]
         - [91.8, 91.8, -22.366, -22.366, -3, STR_CHITTAGONG]
         - [107.25, 107.25, -30.55, -30.55, -1, STR_CHONGQING]
-        - [113.16 , 113.16, -23.125, -23.125, -3, STR_GUANGZHOU]
+        - [113.16, 113.16, -23.125, -23.125, -3, STR_GUANGZHOU]
         - [110.775, 110.775, -19.92, -19.92, -7, STR_HAIKOU]
         - [105.74, 105.74, -20.87, -20.87, -1, STR_HANOI]
         - [126.49, 126.49, -45.47, -45.47, -7, STR_HARBIN]
@@ -975,7 +975,7 @@ regions:
         - [177.75, 178.25, 17.5, 17.875]
         - [164.625, 164.75, 20.5, 20.75]
       -
-#BEGIN NEW CITIES 
+#BEGIN NEW CITIES
         - [241, 241, 26.5, 26.5, -6, STR_EASTER_ISLAND]
         - [269, 269, 1, 1, -6, STR_GALAPAGOS_ISLAND]
         - [-130.1, -130.1, 25.066, 25.066, -6, STR_PITCAIRN]
@@ -1007,7 +1007,7 @@ regions:
 ##END SOUTH PACIFIC
 
 ##BEGIN NORTH ATLANTIC
-  - type: STR_NORTH_ATLANTIC 
+  - type: STR_NORTH_ATLANTIC
     cost: 15000
     areas:
       - [305, 335, -70, -30]
@@ -1035,7 +1035,7 @@ regions:
         - [292, 293.5, -64.8, -63.05]
         - [304.6, 305.17, -48.9, -47.7]
         - [351.34, 352.8, -43, -40.5]
-        - [339.8, 341.34, -65.56,-63.7]
+        - [339.8, 341.34, -65.56, -63.7]
         - [310.5, 312, -66.9, -64.42]
         - [351.9, 353.5, -31.7, -29.8]
         - [297., 298.7, -54.11, -51.11]
@@ -1091,7 +1091,7 @@ regions:
   - type: STR_SOUTH_ATLANTIC
     cost: 15000
     areas:
-      - [330, 5, 0,  15]
+      - [330, 5, 0, 15]
       - [325, 5, 15, 60]
       - [5, 55, 40, 60]
     regionWeight: 5
@@ -1168,7 +1168,7 @@ regions:
 ##END SOUTH ATLANTIC
 
 ##BEGIN INDIAN OCEAN
-  - type: STR_INDIAN_OCEAN 
+  - type: STR_INDIAN_OCEAN
     cost: 15000
     areas:
       - [55, 70, -15, 10]

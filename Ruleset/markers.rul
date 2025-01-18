@@ -15,7 +15,7 @@ extraSprites:
     files:
       9: Resources/GlobeMarkers/globe_ufo_new.png
 
-    
+
 ufos:
   - type: STR_SMALL_SCOUT
     marker: 14

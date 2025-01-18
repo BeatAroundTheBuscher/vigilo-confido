@@ -47,5 +47,4 @@ countries:
   - type: STR_CANADA
     fundingBase: 1
     fundingCap: 4
-    
-    
+

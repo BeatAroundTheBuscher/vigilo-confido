@@ -10,7 +10,7 @@ items:
     recoveryPoints: 5
     fuseType: -1
     isExplodingInHands: true
-    
+
 extraStrings:
   - type: en-US
     strings:
