@@ -199,3 +199,11 @@ extraSprites:
     singleImage: true
     files:
       0: resources/ui/battlescape/ALINV/NE_CIVF.png
+
+  - type: X1.PCK
+    width: 1024
+    height: 64
+    subX: 128
+    subY: 64
+    files:
+      100: Resources/UFOGRAPH/X1/Purple_Skull_exp.png

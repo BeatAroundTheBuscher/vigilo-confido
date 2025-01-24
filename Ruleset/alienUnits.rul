@@ -653,7 +653,6 @@ units:
     aggression: 1
     energyRecovery: 40
     livingWeapon: true
-    liveAlien: ""
   - type: STR_SNAKEMAN
     race: STR_SNAKEMAN
     rank: STR_LIVE_SOLDIER
@@ -704,7 +703,6 @@ units:
     energyRecovery: 50
     specab: 1
     livingWeapon: true
-    liveAlien: ""
   - type: STR_MUTON
     race: STR_MUTON
     rank: STR_LIVE_SOLDIER
@@ -940,7 +938,6 @@ units:
     livingWeapon: true
     intelligence: 3
     aggression: 1
-    liveAlien: ""
   - type: STR_SECTOPOD
     race: STR_SECTOPOD
     rank: STR_LIVE_TERRORIST
@@ -965,7 +962,6 @@ units:
     aggression: 1
     energyRecovery: 50
     livingWeapon: true
-    liveAlien: ""
   - type: STR_ZOMBIE
     race: STR_ZOMBIE
     rank: STR_LIVE_TERRORIST
@@ -1080,11 +1076,11 @@ items:
     recover: true
     liveAlien: true
     costSell: 1000
-#  - type: STR_CHRYSSALID
-#    size: 0.0
-#    recover: true
-#    liveAlien: true
-#    costSell: 0
+  - type: STR_CHRYSSALID
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 0
   - type: STR_FLOATER
     size: 0.0
     recover: true
@@ -1101,11 +1097,11 @@ items:
     recover: true
     liveAlien: true
     costSell: 0
-#  - type: STR_CYBERDISC
-#    size: 0.0
-#    recover: true
-#    liveAlien: true
-#    costSell: 0
+  - type: STR_CYBERDISC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 0
   - type: STR_MUTON_BERSERKER
     size: 0.0
     recover: true

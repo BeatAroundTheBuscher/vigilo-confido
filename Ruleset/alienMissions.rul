@@ -691,7 +691,7 @@ alienDeployments:
         dQty: 0
         percentageOutsideUfo: 30
         itemSets:
-          - - STR_HEAVY_PLASMA
+          - - STR_HEAVY_LASER
           - - STR_HEAVY_LASER
           - - STR_HEAVY_PLASMA
             - STR_HEAVY_PLASMA_CLIP
