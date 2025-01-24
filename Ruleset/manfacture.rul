@@ -28,16 +28,19 @@ manufacture:
   - delete: STR_AVENGER
   - delete: STR_LIGHTNING
   - name: STR_SCOPE
+    category: STR_PASSIVE_BONUS_ITEMS
     space: 0
     time: 120
     cost: 200
     requires: [STR_INTRO_ENGINEERING]
   - name: STR_MEDI_KIT
+    category: STR_EQUIPMENT
     space: 0
     time: 220
     cost: 1200
     requires: [STR_INTRO_ENGINEERING]
   - name: STR_NANO_MEDI_KIT
+    category: STR_EQUIPMENT
     requires:
       - STR_NANO_MEDI_KIT
     space: 0
@@ -230,3 +233,21 @@ manufacture:
     requiredItems:
       STR_ALIEN_ALLOYS: 5
       STR_FLOATER_CORPSE: 2
+
+
+# inherited from standard/xcom1
+# may need time and cost adjustments
+
+  # there can only be 3 workshops @ 10 space in a base
+  # it takes ~ 58 days @ 10 engineers
+  - name: STR_FIRESTORM
+    space: 20 # was 30
+
+  - name: STR_UFO_POWER_SOURCE
+    space: 12 # was 22
+
+  - name: STR_UFO_NAVIGATION
+    space: 8 # was 18
+
+  - name: STR_HWP_FUSION_BOMB
+    space: 5 # was 25

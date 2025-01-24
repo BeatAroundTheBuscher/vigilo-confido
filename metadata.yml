@@ -1,9 +1,10 @@
 name: Vigilo Confido
-version: 0.9.9
+version: 0.9.9a
 author: memmaker & efrenespartano
 description: "Skill & Class System with the EU2012 Storyline."
 master: xcom1
+isMaster: true
 id: "vigilo-confido"
-requiredExtendedVersion: "7.1"
+requiredExtendedVersion: "8.0"
 reservedSpace: 4
 resourceConfig: transparency.rul
