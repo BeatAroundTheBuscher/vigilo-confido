@@ -39,7 +39,7 @@ So it will probably still contain bugs.
 
 === Requirements ===
 
-OpenXcom Extended (OXCE) 7.1
+OpenXcom Extended (OXCE) 8.0
 
 Download release versions of OXCE here:
 https://openxcom.org/oxce/release/
@@ -157,6 +157,20 @@ T3 - Warden Armor   & Plasma Weapons
  - Very easy to exhaust the one medi-kit activation on oneself 
 
 === Changelog ===
+
+=== Cangess in v.0.9.9a ===
+ - OXCE 8.0 compatibility
+ - Turned the mod into a master mod. It still retrieves contents from xcom1
+ - Alien Bases use the alienRace they were created with
+ - Added normal Ethereal/Sectoid Commander to other alienRaces to compensate
+ - For Adv/Elite Training there are only 2 Commendation Levels now
+   - Advanced and Elite requirements were effectively the same (8 or more missions, some kills)
+   - Advanced requires 8 Missions and 4 Kills (no change)
+   - Elite requires 16 Missions and 10 Kills (new)
+ - Extraction for normal Mutons now also give freeze grenades. The prox grenades are worthless/can be bought for $850 anyway
+ - Halved initial costs for Scientists/Engineers
+ - Firestorm required manufacture space reduced to 20 from 30. Same for some other projects
+ - Fixed other small issues
 
 === Changes in v.0.9.9 ===
  - Armors now recover Battle Focus (No armor gets 3 points, all the rest 2 points per turn)
