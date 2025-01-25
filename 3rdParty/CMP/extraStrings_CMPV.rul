@@ -432,6 +432,7 @@ extraStrings:
       STR_MCMURDO: "McMurdo Station"
       STR_AMUNDSENSCOTT: "Amundsen-Scott Station"
       STR_BELLINGSHAUSEN: "Bellingshausen Station"
+      STR_AMUNDSEN: "Amundsen"
 
 # ATLANTIC/PACIFIC/INDIAN CITIES
 

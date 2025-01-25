@@ -20,7 +20,7 @@ items:
     bigSprite: 43
     bulletSprite: 4
     fireSound: 2
-    hitAnimation: 8
+    # hitAnimation: 8 # missing for X1.PCK # using standard animation: 0
     clipSize: -1
     power: 100
     damageType: 3
@@ -42,7 +42,7 @@ items:
     recover: false
 
 units:
-  - type: STR_XTURRET_CANNON
+  - type: STR_XTURRET_CANNON # currently unused
     race: STR_WAR_MACHINES
     rank: STR_LIVE_TERRORIST
     stats: &SECTION_XTURRET_STATS

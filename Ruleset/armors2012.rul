@@ -2210,10 +2210,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Armor_Imported/KevlarArmor/Inventory/man_4m0.png
-  - type: MAN_4M1.SPK
-    singleImage: true
-    files:
-      0: Resources/Armor_Imported/KevlarArmor/Inventory/man_4m1.png
+  # - type: MAN_4M1.SPK
+  #   singleImage: true
+  #   files:
+  #     0: Resources/Armor_Imported/KevlarArmor/Inventory/man_4m1.png
   - type: MAN_4M2.SPK
     singleImage: true
     files:
@@ -3436,12 +3436,12 @@ extraSprites:
     fileSingle: Resources/Armor_Imported/Inventory/Equipment/man_65mNv.gif
   - typeSingle: NERVE_ARMOR_GREEN__8__NERVE_ARMOR_GREEN_F
     fileSingle: Resources/Armor_Imported/Inventory/Equipment/man_65mNv.gif
-  - typeSingle: DOGGO_HARNESS__8__DOGGO_HARNESS_U
-    fileSingle: Resources/Armor_Imported/Inventory/Doge/Equipment/doggo_harness.png
-  - typeSingle: DOGGO_VEST__8__DOGGO_VEST_U
-    fileSingle: Resources/Armor_Imported/Inventory/Doge/Equipment/doggo_combat_vest.png
-  - typeSingle: DOGGO_VEST__8__DOGGO_VEST_ALT_U
-    fileSingle: Resources/Armor_Imported/Inventory/Doge/Equipment/doggo_combat_vest_alt.png
+  # - typeSingle: DOGGO_HARNESS__8__DOGGO_HARNESS_U
+  #   fileSingle: Resources/Armor_Imported/Inventory/Doge/Equipment/doggo_harness.png
+  # - typeSingle: DOGGO_VEST__8__DOGGO_VEST_U
+  #   fileSingle: Resources/Armor_Imported/Inventory/Doge/Equipment/doggo_combat_vest.png
+  # - typeSingle: DOGGO_VEST__8__DOGGO_VEST_ALT_U
+  #   fileSingle: Resources/Armor_Imported/Inventory/Doge/Equipment/doggo_combat_vest_alt.png
 ### paperdolls mask de avanzados seran n° 11
   - typeSingle: HUMAN__11__CAP_ONESUIT_BR
     fileSingle: Resources/Armor_Imported/Inventory/Headgear/man_30AAPA_bigger_right.gif
@@ -3674,8 +3674,8 @@ extraSprites:
     fileSingle: Resources/Armor_Imported/Inventory/Headgear/man_13Xg_center.gif
   - typeSingle: HUMAN__14__HELMET_XOPS_GRAY_D
     fileSingle: Resources/Armor_Imported/Inventory/Headgear/man_13Xg_down.gif
-  - typeSingle: HUMAN__14__HELMET_XOPS_GRAY_H
-    fileSingle: Resources/Armor_Imported/Inventory/Headgear/man_13Xg_high.gif
+  # - typeSingle: HUMAN__14__HELMET_XOPS_GRAY_H
+  #   fileSingle: Resources/Armor_Imported/Inventory/Headgear/man_13Xg_high.gif
   - typeSingle: HUMAN__14__HELMET_XOPS_GRAY_R
     fileSingle: Resources/Armor_Imported/Inventory/Headgear/man_13Xg_right.gif
   - typeSingle: HUMAN__14__HELMET_XOPS_GRAY_S

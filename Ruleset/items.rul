@@ -1231,7 +1231,7 @@ items:
     bulletSprite: 8
     fireSound: 51
     hitSound: 19
-    hitAnimation: 46
+    hitAnimation: 100 # X1
     power: 40
     damageType: 12
     accuracySnap: 75

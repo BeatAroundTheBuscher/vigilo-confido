@@ -234,9 +234,6 @@ items:
     costSell: 0
     clipSize: 12
     hitSound: 22
-    vaporColorSurface: 0
-    vaporDensitySurface: 2
-    vaporProbabilitySurface: 100
     damageAlter:
       ToArmor: 0
   - type: STR_RIFLE
@@ -273,9 +270,6 @@ items:
     explosionSpeed: 5
     bulletSprite: 28
     hitSound: 22
-    vaporColorSurface: 0
-    vaporDensitySurface: 1
-    vaporProbabilitySurface: 100
     damageAlter:
       ToArmor: 0
       ArmorEffectiveness: 0.3
@@ -425,7 +419,13 @@ items:
     clipSize: 6
     vaporColorSurface: 0
     vaporDensitySurface: 4
-    vaporProbabilitySurface: 100
+    vaporProbabilitySurface: 100  # courtesy to ROSIGMA
+    scripts:
+      vaporParticleAmmo: |
+        # noting
+        set particle_lifetime 1;
+        set subvoxel_drift 0;
+        return;
     battleType: 2
     armor: 20
     shotgunPellets: 5
@@ -487,9 +487,6 @@ items:
     damageAlter:
       ToArmor: 0
     clipSize: 5
-    vaporColorSurface: 0
-    vaporDensitySurface: 4
-    vaporProbabilitySurface: 100
     battleType: 2
     armor: 20
   - type: STR_HEAVY_CANNON
@@ -551,9 +548,6 @@ items:
       ToArmorPre: 0.2
       ToArmor: 0
     battleType: 2
-    vaporColorSurface: 0
-    vaporDensitySurface: 3
-    vaporProbabilitySurface: 100
     invWidth: 2
     invHeight: 1
   - type: STR_XCOM_LASER_PISTOL
